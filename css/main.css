@@ -313,7 +313,7 @@ body {
       -webkit-flex-direction: column;
       -ms-flex-direction: column;
       flex-direction: column;
-      padding-top: 20px; }
+      padding-top: 10px; }
       /* line 311, C:/Users/user/Desktop/portfolio/css/main.scss */
       .wrapper .form_section form p {
         display: block;
