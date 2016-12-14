@@ -5,7 +5,9 @@
   padding-left: 0px; }
 
 /* line 16, C:/Users/user/Desktop/portfolio/css/main.scss */
-
+.col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px; }
 
 /* line 21, C:/Users/user/Desktop/portfolio/css/main.scss */
 .footer_centr {
@@ -229,7 +231,7 @@ body {
       background: url("http://www.nastol.com.ua/pic/201403/1920x1080/nastol.com.ua-89451.jpg");
       background-attachment: fixed;
       color: #fff;
-      padding: 35px;
+      padding: 36px;
       height: 100%; }
       /* line 238, C:/Users/user/Desktop/portfolio/css/main.scss */
       .wrapper .about_me .main-content h2 {
