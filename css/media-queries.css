@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px){
+    .wrapper .about_me .main-content{
+        position: relative;
+    background: url(/images/do_the_right_thing.jpg) no-repeat;
+    background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        z-index: -1;
+       
+    }
+     .wrapper .about_me .main-content p{
+    padding:8% 0 0 10%;
+    
+    }
+   
+    .wrapper .about_me .main-content h2{
+    font-size: 8rem;
+    padding-top: 10%;
+    z-index: 4;
+    text-shadow: 0px 0px 20px #000; 
+    }
+
+   .wrapper .about_me .main-content p{
+    font-size: 5rem;
+    padding: 10%;
+    text-shadow: 0px 0px 20px #000; 
+    
+    }
+    header{
+    min-height: 260vh;
+    }
+    header .bg_photo{
+    background-position: 50%;
+    }
+     header .bg_photo .skills{ 
+    }
+    
+    
+    .wrapper .portpholio_section h2 {
+	 font-size: 5em;
+     padding-top: 5%;    
+   }
+    
+    .wrapper .form_section .form{
+	padding-bottom: 11%;
+   }
+    .wrapper .form_section .form input{
+	font-size: 3.9em;
+}
+    .wrapper .form_section .form textarea{
+        height: 300px;
+	    font-size: 3.9em;
+}
+    .footer .social_cont .social{
+      margin-left: 60px;
+    }
+    .footer .social_cont .vk{
+      margin-left: 0px;
+    }
+    
+    .footer .phone{
+      padding-top: 10%;
+    }
+    .footer .email{
+      padding-top: 10%;
+      padding-left: 10%;
+    }
+     .footer .social_cont{
+      margin-top: 5%; 
+    }
+     .footer .property{
+         margin-top: 1%;
+    }
+    
+}
+
+/*===================================================*/
+@media screen and (max-width: 1198px){
+    .wrapper .bg_photo .h1{
+      left: 5%;
+    }
+
+}

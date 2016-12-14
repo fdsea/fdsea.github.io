@@ -1,0 +1,472 @@
+/*===========gutter===============*/
+/* line 10, C:/Users/user/Desktop/portfolio/css/main.scss */
+.no-gutter > [class*='col-'] {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+/* line 16, C:/Users/user/Desktop/portfolio/css/main.scss */
+.col-xs-12 {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+/* line 21, C:/Users/user/Desktop/portfolio/css/main.scss */
+.footer_centr {
+  width: 960px;
+  overflow: hidden;
+  margin: 0 auto; }
+
+/* line 27, C:/Users/user/Desktop/portfolio/css/main.scss */
+.up_btn {
+  display: none;
+  position: fixed;
+  left: 1%;
+  bottom: 1%;
+  z-index: 1000; }
+  /* line 33, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .up_btn .up_btn_body {
+    width: 90px;
+    height: 90px;
+    background: #cd00ff;
+    border-radius: 50%; }
+    /* line 38, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .up_btn .up_btn_body span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: #fff;
+      font-size: 2em;
+      font-family: "Lobster", cursive;
+      -webkit-animation: blink 0.5s ease infinite;
+      animation: blink 0.5s ease infinite; }
+
+@-webkit-keyframes blink {
+  0% {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+    transform: scale(1) translate(-50%, -50%); }
+  50% {
+    -webkit-transform: scale(1.3) translate(-50%, -50%);
+    transform: scale(1.3) translate(-50%, -50%); }
+  100% {
+    -webkit-transform: scale(1.05) translate(-50%, -50%);
+    transform: scale(1.05) translate(-50%, -50%); } }
+
+@keyframes blink {
+  0% {
+    -webkit-transform: scale(1) translate(-50%, -50%);
+    transform: scale(1) translate(-50%, -50%); }
+  50% {
+    -webkit-transform: scale(1.3) translate(-50%, -50%);
+    transform: scale(1.3) translate(-50%, -50%); }
+  100% {
+    -webkit-transform: scale(1.05) translate(-50%, -50%);
+    transform: scale(1.05) translate(-50%, -50%); } }
+
+/*================================*/
+/* line 59, C:/Users/user/Desktop/portfolio/css/main.scss */
+body {
+  background: url(http://i3.wallpaperscraft.ru/image/krugi_fon_setka_chb_temnyy_30551_1920x1080.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* line 65, C:/Users/user/Desktop/portfolio/css/main.scss */
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  overflow: hidden;
+  /*==========================================*/ }
+  /* line 70, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .wrapper aside {
+    background: rgba(0, 0, 0, 0.9);
+    height: 100vh; }
+    /* line 73, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper aside nav {
+      height: 100%;
+      position: relative; }
+      /* line 76, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper aside nav ul {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+        /* line 82, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper aside nav ul a {
+          text-decoration: none; }
+          /* line 84, C:/Users/user/Desktop/portfolio/css/main.scss */
+          .wrapper aside nav ul a li {
+            width: 100%;
+            font-family: "Lobster", cursive;
+            letter-spacing: 2px;
+            font-size: 1.7em;
+            padding: 0px 0 0 5%;
+            color: #cd00ff;
+            box-sizing: border-box;
+            border: 2px solid transparent;
+            -webkit-transition: 0.4s linear;
+            transition: 0.4s linear;
+            cursor: pointer; }
+            /* line 95, C:/Users/user/Desktop/portfolio/css/main.scss */
+            .wrapper aside nav ul a li:hover {
+              border-left: 2px solid #cd00ff; }
+  /* line 104, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .wrapper header {
+    height: 100vh; }
+    /* line 106, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper header .bg_photo {
+      background-image: url(/images/VaZ1mhfc9eQ.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      position: relative; }
+      /* line 112, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper header .bg_photo .skills {
+        position: absolute;
+        bottom: 100px;
+        left: 0;
+        width: 100%; }
+        /* line 117, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper header .bg_photo .skills .skill {
+          width: 100%;
+          vertical-align: center; }
+          /* line 120, C:/Users/user/Desktop/portfolio/css/main.scss */
+          .wrapper header .bg_photo .skills .skill img {
+            width: 100px;
+            margin-left: 13px; }
+        /* line 126, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper header .bg_photo .skills .skill_2 img {
+          width: 90px;
+          padding-top: 8px;
+          padding-left: 10px;
+          margin-left: 17px; }
+        /* line 134, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper header .bg_photo .skills .skill_3 img {
+          width: 115px;
+          padding-top: 2px; }
+      /* line 140, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper header .bg_photo .h1 {
+        display: block;
+        position: absolute;
+        color: #fff;
+        font-family: "Lobster", cursive;
+        letter-spacing: 2px;
+        border: 1px solid #fff;
+        padding: 5px 15px 15px 15px;
+        background: rgba(0, 0, 0, 0.9); }
+        /* line 149, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper header .bg_photo .h1 span {
+          background: #cd00ff; }
+    /* line 159, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper header .nav_mobile {
+      position: absolute;
+      top: 0;
+      right: -40%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      padding: 8%;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out;
+      display: block; }
+      /* line 168, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper header .nav_mobile .open_close_btn {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: rgba(0, 0, 0, 0.9);
+        top: 2%;
+        left: -33%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%; }
+        /* line 177, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper header .nav_mobile .open_close_btn .btn_nav {
+          position: relative;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          width: 100px;
+          height: 100px; }
+          /* line 185, C:/Users/user/Desktop/portfolio/css/main.scss */
+          .wrapper header .nav_mobile .open_close_btn .btn_nav span {
+            position: absolute;
+            width: 100px;
+            border: 6px solid #cd00ff;
+            -webkit-transition: 0.3s ease;
+            transition: 0.3s ease; }
+          /* line 192, C:/Users/user/Desktop/portfolio/css/main.scss */
+          .wrapper header .nav_mobile .open_close_btn .btn_nav span:nth-child(1) {
+            top: 18%; }
+          /* line 196, C:/Users/user/Desktop/portfolio/css/main.scss */
+          .wrapper header .nav_mobile .open_close_btn .btn_nav span:nth-child(2) {
+            top: 44%; }
+          /* line 199, C:/Users/user/Desktop/portfolio/css/main.scss */
+          .wrapper header .nav_mobile .open_close_btn .btn_nav span:nth-child(3) {
+            top: 70%; }
+      /* line 205, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper header .nav_mobile ul {
+        position: relative;
+        top: 45%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%); }
+        /* line 211, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper header .nav_mobile ul a li {
+          color: #cd00ff;
+          text-decoration: none;
+          padding-top: 10%;
+          font-size: 5rem;
+          font-family: "Lobster", cursive;
+          letter-spacing: 2px; }
+  /* line 226, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .wrapper .about_me {
+    width: 100%;
+    height: 100%;
+    font-family: "Anton", sans-serif;
+    display: block; }
+    /* line 231, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper .about_me .main-content {
+      background: url("http://www.nastol.com.ua/pic/201403/1920x1080/nastol.com.ua-89451.jpg");
+      background-attachment: fixed;
+      color: #fff;
+      padding: 35px;
+      height: 100%; }
+      /* line 238, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .about_me .main-content h2 {
+        text-align: center; }
+        /* line 240, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper .about_me .main-content h2 span {
+          background: #cd00ff; }
+      /* line 244, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .about_me .main-content p {
+        font-family: "Lobster", cursive;
+        font-size: 2.2rem; }
+    /* line 249, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper .about_me .think_man {
+      width: 100%;
+      display: block;
+      height: 100%;
+      overflow: hidden; }
+      /* line 254, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .about_me .think_man .think_man_pic {
+        width: 100%;
+        height: 100%; }
+        /* line 257, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper .about_me .think_man .think_man_pic img {
+          width: 114.3%; }
+  /* line 263, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .wrapper .portpholio_section {
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    font-family: "Anton", sans-serif; }
+    /* line 267, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper .portpholio_section h2 {
+      color: #fff;
+      text-align: center;
+      font-size: 2.4em;
+      padding: 20px 0 20px; }
+    /* line 273, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper .portpholio_section .portpholio {
+      margin-top: 5%; }
+      /* line 276, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .portpholio_section .portpholio img {
+        width: 92%;
+        -webkit-transition: 0.4s ease;
+        transition: 0.4s ease; }
+        /* line 279, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper .portpholio_section .portpholio img:before {
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: red; }
+        /* line 285, C:/Users/user/Desktop/portfolio/css/main.scss */
+        .wrapper .portpholio_section .portpholio img:hover {
+          -webkit-transform: translateY(-10px);
+          -ms-transform: translateY(-10px);
+          transform: translateY(-10px);
+          box-shadow: 0px 0px 5px #cd00ff; }
+      /* line 290, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .portpholio_section .portpholio p {
+        color: #fff;
+        text-align: center;
+        padding: 5% 10% 0% 0%;
+        font-family: "Lobster", cursive;
+        font-size: 1.3em; }
+    /* line 298, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper .portpholio_section .portpholio_img {
+      padding-left: 7%; }
+  /* line 303, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .wrapper .form_section {
+    width: 100%;
+    height: 100vh;
+    padding: 10% 0 0px; }
+    /* line 307, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .wrapper .form_section form {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-top: 20px; }
+      /* line 311, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form p {
+        display: block;
+        text-align: center;
+        color: #fff;
+        font-size: 2.2rem;
+        font-family: "Lobster", cursive;
+        padding: 0 10% 0 10%; }
+      /* line 320, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form input {
+        padding: 15px;
+        margin: 20px;
+        font-size: 2em;
+        border-radius: 5px;
+        border: none; }
+      /* line 327, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form input::-webkit-input-placeholder {
+        opacity: 1;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      /* line 331, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form input:focus::-webkit-input-placeholder {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+      /* line 335, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form textarea {
+        padding: 15px;
+        margin: 20px;
+        font-size: 1.2em;
+        border-radius: 5px;
+        border: none; }
+      /* line 342, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form input[type='submit'] {
+        width: 50%;
+        background: #cd00ff;
+        color: #fff;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        font-family: "Anton", sans-serif;
+        letter-spacing: 2px;
+        -webkit-transition: 0.3s ease;
+        transition: 0.3s ease; }
+      /* line 351, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form input[type='submit']:hover {
+        background: #9200b6; }
+      /* line 355, C:/Users/user/Desktop/portfolio/css/main.scss */
+      .wrapper .form_section form input[type='submit']:active {
+        background: #6c0086; }
+
+/* line 361, C:/Users/user/Desktop/portfolio/css/main.scss */
+.black_layout {
+  background: url("http://www.nastol.com.ua/pic/201403/1920x1080/nastol.com.ua-89451.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* line 367, C:/Users/user/Desktop/portfolio/css/main.scss */
+.footer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+  font-family: "Lobster", cursive;
+  letter-spacing: 2px; }
+  /* line 376, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .footer .phone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px 0 0 40px; }
+    /* line 382, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .phone .pict_phone {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      background: url(https://cdn3.iconfinder.com/data/icons/gray-toolbar-2/512/phone_number_telephone-128.png);
+      background-size: 100%; }
+    /* line 389, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .phone span:nth-child(2) {
+      padding-left: 10px; }
+  /* line 395, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .footer .email {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px 0 15px 40px; }
+    /* line 401, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .email .pict_eml {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      background-size: 100%;
+      padding-left: 10px;
+      background: url(http://www.ifco.ca/wp-content/plugins/nvtools/asserts/images/email_mail_envelope_letter_send_inbox_newsletter-48.png); }
+    /* line 410, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .email span:nth-child(2) {
+      padding-left: 10px; }
+  /* line 415, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .footer .social_cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    alight-items: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    /* line 424, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .social_cont .social {
+      width: 47px;
+      min-width: 47 px;
+      height: 47px;
+      min-height: 47px;
+      display: inline-block;
+      background: #fff url(/images/sprite.jpg) no-repeat;
+      background-size: 900%;
+      margin-left: 10px;
+      border-radius: 50%; }
+    /* line 437, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .social_cont .vk {
+      background-position: 59.4% 34.1%; }
+    /* line 440, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .social_cont .fb {
+      background-position: 19.2% 2%; }
+    /* line 443, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .social_cont .cdp {
+      background-position: 99.2% 2%; }
+    /* line 446, C:/Users/user/Desktop/portfolio/css/main.scss */
+    .footer .social_cont .gh {
+      background-position: -0.7% 34.5%; }
+  /* line 451, C:/Users/user/Desktop/portfolio/css/main.scss */
+  .footer .property {
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+    font-family: "Lobster", cursive;
+    padding-top: 1%;
+    padding-bottom: 1%; }
